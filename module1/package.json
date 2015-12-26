@@ -1,0 +1,20 @@
+{
+  "name": "module1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "6.1.2",
+    "browserify": "^8.1.1"
+  }
+}
